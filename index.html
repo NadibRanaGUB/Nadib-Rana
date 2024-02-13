@@ -1,13 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git test</title>
+    <title>portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <!-------------------Font Awesome cdn--------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
+
+
+
+
 <body>
-    <div class="div">
-        <h1>GitHub</h1>
+    <!-------------------------Navbar---------------------------->
+    <div class="header">
+        <div class="name">
+            <h1>Nadib Rana</h1>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Experience">expertise</a></li>
+            <li><a href="#language">Skill</a></li>
+            <li><a href="#contract">contract</a></li>
+        </ul>
+
     </div>
-</body>
+
+
+    <!-------------------------------Main section---------------------->
+
+
+    <main>
+        <marquee id="marqueeID" behavior="baner-titel" direction="left">
+            You want to lean!
+        </marquee>
+
+
+
+
+
+
+
+        <!-----------------------left side of main section----------------------->
+        <section class="main">
+            <div class="left">
+                <p>Hello,It's me</p>
+                <h1>Nadib</h1>
+                <p class="creatForOpatity">I am working base on the
+                    <span class="Devolapar"><b>Devolapment</b></span> sector.
+                </p>
+                <p>I am expert with</p>
+                <span id="element"> </span><br>
+                <label>
+                    <input class="button" type="button" value="Join">
+                </label>
+            </div>
+
+
+
+
+
+
+
+
+            <!---------------this part is workine base on the left side of main section--------------------->
+
+            <div class="right">
+                <img src="image/nadib.png" alt="nadib">
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <!-----------------------------Js section------------------------------- -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web Developer', 'Sowftor Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+
+    <div id="th1"></div>
+
+
+
+
+
+
+    <!--------------------------about section--------------------->
+
+
+    <div id="about">
+        <div class="about_left">
+            <img src="image/nadib.png" alt="">
+        </div>
+
+
+
+
+        <!--------------------------------about right----------------------------------->
+
+
+        <div class="about_Right">
+            <h1>About</h1>
+            <p>Web development is the work
+                involved in developing a
+                website for the Internet
+                (World Wide Web) or an intranet (a private network).
+                Web development can range from developing a simple
+                single static page of plain text to complex web applications,
+                electronic businesses, and social network services.
+            </p>
+            <ul id="about_skill_experiance_Education">
+                <li id="li_one">Skill</li>
+                <li>Experience</li>
+                <li>Education</li>
+
+                <div id="skill">
+                    <ul>
+                        <li>
+                            <p>GUB in 2022</p>
+                            <h4>Web Degine</h4>
+                        </li>
+                        <li>
+                            <p>GUB in 2022</p>
+                            <h4>Wev development</h4>
+                        </li>
+                        <li>
+                            <p>GUB in 2023</p>
+                            <h4> Softower Degine</h4>
+                        </li>
+                    </ul>
+                </div>
+                <div id="Experience">
+                    <ul>
+                        <li>
+                            <p>GUB in 2022</p>
+                            <h4>Web Degine</h4>
+                        </li>
+                        <li>
+                            <p>GUB in 2022</p>
+                            <h4>Wev development</h4>
+                        </li>
+                        <li>
+                            <p>GUB in 2023</p>
+                            <h4> Softower Degine</h4>
+                        </li>
+                    </ul>
+                </div>
+                <div id="Education">
+                    <ul>
+                        <li>
+                            <p>GAHSC</p>
+                            <h4>SSE</h4>
+                        </li>
+                        <li>
+                            <p>Korimganj gov collage</p>
+                            <h4>HSC</h4>
+                        </li>
+                        <li>
+                            <p>GUB</p>
+                            <h4>B.Sc in computer science and enginieering</h4>
+
+                        </li>
+                    </ul>
+                </div>
+            </ul>
+            <br>
+            <br>
+
+
+        </div>
+
+    </div>
+    <!---------------------------------Language skills------------------------------------->
+
+    
+     <!--------------------------------------foother------------------------------->
+     </div>
+     <section class="footer">
+        <!-------------contract------------->
+        <div id="contract">
+
+            <h2 id="contract1">Contract Me</h2>
+
+            <p id="Email1"><span class="Email_Phone">Email:</span>
+            <h3 id="Email">213002247@student.green.edu.bd</h3>
+            </p>
+            <p>
+                <span class="Email_Phone">Phone:</span>
+            <h3 id="Phone" align="center">+8801623952206</h3>
+            </p>
+        </div>
+        <!---------------------comment------------->
+        <div class="comment">
+            <h3>submite your comment</h3>
+            <input class="comment_inpute" type="text">
+            <br> <button class="button">submit</button>
+        </div>
+        <!-------------communication-------------->
+        <div class="icon">
+            <a href="#">
+                <i class="fa-brands fa-whatsapp icon-degine"></i>WhatsApp
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-facebook icon-degine"></i>Facebook
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-instagram icon-degine"></i>Instagram
+            </a>
+            <a href="#"><i class="fa-brands fa-youtube icon-degine"></i>YouTupe
+            </a>
+        </div>
+
+
+    </section>
+ </body>
+
 </html>
