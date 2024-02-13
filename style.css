@@ -74,8 +74,8 @@ font-variant: small-caps;
 .left > h1{
 font-size: 2.8rem;
 }
-.left > .creatForOpatity{
-opacity: 0.5;
+.left > .creatForOpacity{
+opacity: 0.9;
 }
 
 
@@ -113,14 +113,70 @@ background-color: transform;
 .right  img{
   border-radius: 50%;
   padding: 25px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   text-align: center;
   align-items: center;
-  margin: 50px 0;
+  
   mix-blend-mode: lightskyblue;
-  width: 502px;
-  height: 530px;
+  width: 501px;
+  height: 500px;
   background-image: radial-gradient(circle,red,black, green, rgb(36, 75, 70),rgb(36, 75, 94),rgb(36, 75, 94));
+}
+
+.useForAnimation{
+  width: 552px;
+  height: 546px;
+  background-color: transparent;
+  border-radius: 50%;
+  padding: 20px;
+  transform: rotate(360deg) scale(0.5s);
+ animation-name: firstanimation;
+ animation-delay:1s;
+ animation-duration: 10s;
+ animation-iteration-count: infinite;
+
+
+}
+/* @keyframes firstanimation{
+form {
+  background-color: #477972;
+}
+to {
+  background-color: black;
+}
+} */
+@keyframes firstanimation {
+  10%{
+    background-color: #425946;;
+  }
+  20%{
+    background-color: #3e7650;
+  }
+   30%{
+    background-color: #28796a;
+  } 
+  
+  40%{
+    background-color: #23975f;
+  } 
+  50%{
+    background-color: #277b58;
+  } 
+  60%{
+    background-color: #2aa56e;
+  } 
+  70%{
+    background-color: #5cc855;
+  }
+  80%{
+    background-color: #114444;;
+  }
+  90%{
+    background-color: #4bb992;;
+  }
+  10%{
+    background-color: rgb(68, 130, 64);
+  }
 }
 
 
@@ -184,7 +240,7 @@ background-color: rgb(45, 153, 45);
 border: 3px solid black;
 }
 /**********************expertise section****************/
-#htmal_language{
+/* #htmal_language{
 background-color: aliceblue;
 width: 60%;
 height: 20px;
@@ -334,7 +390,7 @@ color: rgb(118, 105, 105);
 background-color: transparent;
 margin: 20px 0px;
 padding: 40px;
-}
+} */
 /****************************** Foother ********************************/
 .footer{
 background-color: RGB(48, 65, 70);
@@ -342,9 +398,48 @@ display: flex;
 justify-content: space-between;
 }
 
+#languageSkills{
+  display: flex;
+  justify-content: space-between;
+}
+#motherOfcomputerPrograming{
+  background-color: transparent;
+  width: 49%;
+  border-radius: 5% 5%;
+  border: 2px solid black;
+}
 
+#web_based_language{
+  background-color:transparent;
+ width: 49%;
+ border-radius: 3%;
+ border: 2px solid black;
 
+}
+#web_based_language li{
+  list-style: none;
+}
+#web_based_language li h1{
+text-decoration: none;
+list-style: none;
+animation-name: forlanguage;
+animation-duration: 2s;
 
+}
+@keyframes forlanguage {
+  from{
+    background-image: radial-gradient(left to right, black red);
+  }
+  to{
+    background-color: green;
+  }
+  
+}
+#web_based_language li h1{
+  background-color: #114444;
+  border: 2px solid blue;
+ 
+}
 /*************************************Contract***********************************/
 #Email{
 background-color: rgb(40, 45, 49);
