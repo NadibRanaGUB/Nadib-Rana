@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+u{
+color: rgb(25, 185, 60);
+}
 body{
   background-color:rgb(36, 75, 94) ;
   font-family: 'Poppins', sans-serif;
@@ -391,6 +394,8 @@ background-color: transparent;
 margin: 20px 0px;
 padding: 40px;
 } */
+
+
 /****************************** Foother ********************************/
 .footer{
 background-color: RGB(48, 65, 70);
@@ -419,7 +424,7 @@ justify-content: space-between;
 #web_based_language li{
   list-style: none;
 }
-#web_based_language li h1{
+#web_based_language li{
 text-decoration: none;
 list-style: none;
 animation-name: forlanguage;
@@ -435,11 +440,377 @@ animation-duration: 2s;
   }
   
 }
-#web_based_language li h1{
-  background-color: #114444;
-  border: 2px solid blue;
- 
+/**********language skill *****************/
+.aboutSkills{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.aboutSkills p{
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sizeColor{
+  font: bold;
+  font-size:24px;
+  color: whitesmoke;
+}
+      .percentageC{
+        text-align: center;
+        animation-name:c;
+        animation-duration: 6.5s;
+        border-radius: 5px;
+        border: 3px solid black;
+        background-color: #58eba4;;
+        width: 92%;  
+      }
+        @keyframes c {
+          3%{
+            text-align: center;
+            width: 3%;
+            background: #0d9a55;
+          }
+        25%{
+          text-align: center;
+        width: 25%;
+        background: #0d9a55;
+        }  
+        50%{
+          text-align: center;
+          width: 50%;
+          background-color:  #0d9a55;
+        }
+        75%{
+          text-align: center;
+          width: 70%;
+          background-color:  #35b276;
+        }
+        100%{
+          text-align: center;
+          width: 92%;
+          background-color:  #58eba4;
+        }
+        }
+
+
+
+
+
+        .percentageCc{
+          text-align: center;
+          animation-name:cc;
+          animation-duration: 8s;
+          border-radius: 5px;
+          border: 3px solid black;
+          background-color: #58eba4;;
+         width: 88%;  
+        }
+          @keyframes cc {
+            3%{
+              text-align: center;
+              width: 3%;
+              background: #0d9a55;
+            }
+          25%{
+            text-align: center;
+          width: 25%;
+          background: #0d9a55;
+          }  
+          50%{
+            text-align: center;
+            width: 50%;
+            background-color:  #0d9a55;
+          }
+          75%{
+            text-align: center;
+            width: 70%;
+            background-color:  #35b276;
+          }
+          100%{
+            text-align: center;
+            width: 88%;
+            background-color:  #58eba4;
+          }
+          }
+
+
+
+
+
+          .percentageJava{
+            text-align: center;
+            animation-name:java;
+            animation-duration: 5s;
+            border-radius: 5px;
+            border: 3px solid black;
+            background-color: #58eba4;;
+           width: 75%;  
+          }
+            @keyframes java {
+              3%{
+                text-align: center;
+                width: 3%;
+                background: #0d9a55;
+              }
+            25%{
+              text-align: center;
+            width: 25%;
+            background: #0d9a55;
+            }  
+            50%{
+              text-align: center;
+              width: 50%;
+              background-color:  #0d9a55;
+            }
+            75%{
+              text-align: center;
+              width: 70%;
+              background-color:  #35b276;
+            }
+            100%{
+              text-align: center;
+              width: 75%;
+              background-color:  #58eba4;
+            }
+            }
+
+
+
+
+
+
+
+
+            .percentagePython{
+              text-align: center;
+              animation-name:python;
+              animation-duration: 6s;
+              border-radius: 5px;
+              border: 3px solid black;
+              background-color: #58eba4;;
+              width: 80%;  
+            }
+              @keyframes python {
+                2%{
+                  text-align: center;
+                  width: 3%;
+                  background: #0d9a55;
+                }
+                5%{
+                  width: 5%;
+                  background: #0d9a35;
+                }
+                10%{
+                  
+                    text-align: center;
+                    width: 10%;
+                    background: #0d9a55;
+                 
+                }
+              25%{
+                text-align: center;
+              width: 25%;
+              background: #0d9a55;
+              }  
+              50%{
+                text-align: center;
+                width: 50%;
+                background-color:  #0d9a55;
+              }
+              75%{
+                text-align: center;
+                width: 70%;
+                background-color:  #35b276;
+              }
+              100%{
+                text-align: center;
+                width: 80%;
+                background-color:  #58eba4;
+              }
+              }
+
+
+
+
+
+
+
+              .percentageMySQL{
+                text-align: center;
+                animation-name:MySQL;
+                animation-duration: 7s;
+                border-radius: 5px;
+                border: 3px solid black;
+                background-color: #58eba4;;
+               width: 96%;  
+              }
+                @keyframes MySQL {
+                25%{
+                  text-align: center;
+                width: 25%;
+                background: #0d9a55;
+                }  
+                50%{
+                  text-align: center;
+                  width: 50%;
+                  background-color:  #0d9a55;
+                }
+                75%{
+                  text-align: center;
+                  width: 70%;
+                  background-color:  #35b276;
+                }
+                100%{
+                  text-align: center;
+                  width: 96%;
+                  background-color:  #58eba4;
+                }
+                }
+
+
+
+
+                .percentageHtml{
+                  text-align: center;
+                  animation-name:html;
+                  animation-duration: 10s;
+                  border-radius: 5px;
+                  border: 3px solid black;
+                  background-color: #58eba4;;
+                  width: 90%;
+                  }
+                  @keyframes html {
+                    2%{
+                      width: 0%;
+                      background: #0d9a55;
+                    }
+                  25%{
+                    text-align: center;
+                  width: 25%;
+                  background: #0d9a55;
+                  }  
+                  50%{
+                    text-align: center;
+                    width: 50%;
+                    background-color:  #0d9a55;
+                  }
+                  75%{
+                    text-align: center;
+                    width: 70%;
+                    background-color:  #35b276;
+                  }
+                  100%{
+                    text-align: center;
+                    width: 90%;
+                    background-color:  #58eba4;
+                  }
+                  }
+                  
+                  
+                  
+                  
+                  .percentageCSS{
+                    text-align: center;
+                    animation-name:css;
+                    animation-duration: 10s;
+                    border-radius: 5px;
+                    border: 3px solid black;
+                    background-color:  #5ad499;
+                   width: 94%; 
+                  }
+                    @keyframes css {
+                    25%{
+                      text-align: center;
+                    width: 25%;
+                    background: #1da161;
+                    }  
+                    55%{
+                      text-align: center;
+                      width: 50%;
+                      background-color:  #1a995b;
+                    }
+                    78%{
+                      text-align: center;
+                      width: 70%;
+                      background-color:  #38996a;
+                    }
+                    100%{
+                      text-align: center;
+                      width: 94%;
+                      background-color:  #5ad499;
+                    }
+                    }
+                  
+                  
+                  
+                  
+                    .percentageJavacripte{
+                      text-align: center;
+                      animation-name:javacripte;
+                      animation-duration: 11s;
+                      border-radius: 5px;
+                      border: 3px solid black;
+                      background-color: #3fb97e;;
+                      width: 81%;
+                    }
+                      @keyframes javacripte {
+                      25%{
+                        text-align: center;
+                      width: 25%;
+                      background: #0d9a55;
+                      }  
+                      50%{
+                        text-align: center;
+                        width: 50%;
+                        background-color:  #0d9a55;
+                      }
+                      75%{
+                        text-align: center;
+                        width: 70%;
+                        background-color:  #35b276;
+                      }
+                      100%{
+                        text-align: center;
+                        width: 81%;
+                        background-color:  #58eba4;
+                      }
+                      }
+                  
+                  
+                  
+                  
+                  
+                      .percentageNoteJs{
+                        text-align: center;
+                        animation-name:notejs;
+                        animation-duration: 9s;
+                        border-radius: 5px;
+                        border: 3px solid black;
+                        background-color: #46cc8b;
+                        width: 75%;
+                        }
+                        @keyframes notejs {
+                        25%{
+                          text-align: center;
+                        width: 25%;
+                        background: #0d9a55;
+                        }  
+                        50%{
+                          text-align: center;
+                          width: 50%;
+                          background-color:  #149f5c;
+                        }
+                        75%{
+                          text-align: center;
+                          width: 70%;
+                          background-color:  #3fbf81;
+                        }
+                        100%{
+                          text-align: center;
+                          width: 75%;
+                          background-color:  #62edaa;
+                        }
+                        }
+                  
+                  
 /*************************************Contract***********************************/
 #Email{
 background-color: rgb(40, 45, 49);
